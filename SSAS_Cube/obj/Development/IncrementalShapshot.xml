@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CubeProject_IT23712836</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>zgqawELTX8ZyLBqs/MpjwX49RUI=4/1/2026 10:52:16 AM4/1/2026 10:45:31 AM</TimeStamp>
+        <ID>
+          <String>Hospital_DW_Source</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>0fQXuD1hq8obk6PWKOBxerJ2B+A=4/2/2026 1:26:33 PM4/1/2026 10:46:41 AM</TimeStamp>
+        <ID>
+          <String>Hospital DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BMgCwmCUCpdW5eKI8G2eYoLliSM=4/1/2026 7:27:00 PM4/1/2026 10:48:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Treatment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7ZOUr3KzS/AWfGX0y2vYMvXfQqE=4/2/2026 12:55:58 PM4/1/2026 10:48:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Doctor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yLISwyDcuyBwb5XI1RArVYZzXHs=4/1/2026 7:26:51 PM4/1/2026 10:48:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RLPIHjAQGHTYRz3OoCYs8EqJNSA=4/2/2026 12:55:19 PM4/1/2026 10:48:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Patient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>e85QbVtAEW5ZF4qC4xz9qF9wyic=4/1/2026 7:26:56 PM4/1/2026 10:48:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Appointment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Q/4PkYst9akOe2fBbXAP32llAh4=4/2/2026 1:50:19 PM4/2/2026 1:43:19 PMTdyrXF1rilxcqfv6DMfF9aOBsDQ=4/2/2026 1:43:20 PM4/2/2026 1:43:19 PM</TimeStamp>
+        <ID>
+          <String>Hospital_DW_DSV</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>M+HergvfjdzwqNX/FteHJzzurrU=4/1/2026 10:43:32 AM4/1/2026 10:43:32 AM</TimeStamp>
+      <ID>
+        <String>CubeProject_IT23712836</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-04-02T08:20:55.29Z</LastDeployed>
+</DeploymentSnapshot>
